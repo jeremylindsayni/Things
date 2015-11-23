@@ -1,6 +1,7 @@
 /*
   HCSR04.cpp - Library for the HC-SR04 distance sensor
   Created by Jeremy Lindsay, November 22, 2015.
+  Inspired by code from Rui Santos, http://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
   Released into the public domain.
 */
 
