@@ -14,6 +14,7 @@ class HCSR04
   public:
     HCSR04(int trigger, int echo);
     unsigned int echo();
+	unsigned int distanceInCentimetres();
   private:
     int _trigger;
     int _echo;

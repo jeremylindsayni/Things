@@ -26,3 +26,11 @@ unsigned int HCSR04::echo()
 
 	return pulseIn(_echo, HIGH);
 }
+
+unsigned int HCSR04::distanceInCentimetres()
+{
+	int duration = echo();
+	
+	// Given the speed of sound in air is 332m/s = 3320cm/s = 0.0332cm/us).
+	return (duration / 2) * 0.0332;
+}
