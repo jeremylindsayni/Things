@@ -8,6 +8,12 @@
 
 #include "Arduino.h"
 
+// --a--
+// f---b
+// --g--
+// e---c
+// --d-- dp
+
 class WD03641
 {
   public:
